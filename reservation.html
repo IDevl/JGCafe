@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="col-md form-group">
                                     <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" placeholder="Date" required />
+                                        <input type="text" class="form-control datetimepicker-input" name="dateandtime" data-target="#datetimepicker4" placeholder="Date" required />
                                         <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
                                             <div class="input-group-text">
                                                 <span class="lnr lnr-calendar-full"></span>
@@ -152,7 +152,7 @@
 
 
                                 <div class="col-md-12 form-group">
-                                    <select class="form-control" id="selectPerson" required>
+                                    <select class="form-control" id="selectPerson" name="persons" required>
                                         <option></option>
                                         <option>1</option>
                                         <option>2</option>
@@ -193,7 +193,7 @@
                         <p>Never miss out on new products, exclusive offers, and more when you join the JG Cofee and Bean Cafe mailing list.</p>
                         <form id="newsletter" data-netlify="true">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="Enter email" required>
+                                <input type="email" class="form-control" id="emailNewsletter" name="email" aria-describedby="emailNewsletter" placeholder="Enter email" required>
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Submit</button>
                         </form>
