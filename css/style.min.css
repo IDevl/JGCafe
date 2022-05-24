@@ -81,6 +81,13 @@ a:hover {
 .footer-logo {
   height: 100px; }
 
+.featherlight .featherlight-inner {
+    width: 50vw;
+    height: 30vw;
+}
+
+
+
 .nav-link {
   color: #000; }
 
